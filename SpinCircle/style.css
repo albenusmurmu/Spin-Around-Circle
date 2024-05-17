@@ -1,0 +1,39 @@
+.loder{
+    height: 120px;
+    width: 120px;
+    /* height:40vh; */
+
+    /* background-color: #faf5f5; */
+    border: 16px solid #eae5e5;
+    border-top:16px solid rgb(183, 136, 19);
+    border-radius: 50%;
+    animation: spin 2s 0s infinite linear;
+    /* text-align: top-center; */
+
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+       
+    }
+    50%{
+        transform: rotate(180deg);
+        /* border-bottom: 2px solid #00d7d7 ; */
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+h1{
+  /* background-color: black; */
+  color: #1a252c;
+  width:150px ;
+  transition: margin-right 2s;
+  border: 5px solid palevioletred;
+  border-radius: 25px;
+  text-align: center;
+  ;
+}
